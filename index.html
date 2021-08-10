@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+ <html dir="ltr" lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- Remember to replace this with your title! -->
+    <title>Brendan Tomlinson</title>
+    
+    <!-- Link for boostrap from: 
+    https://getbootstrap.com/docs/5.0/getting-started/introduction -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet"> 
+
+    <meta name="twitter:card" content="summary">
+    <meta property="og:title" content="Brendan Tomlinson" />
+    <meta property="og:description" content="Brendan Tomlinson is a professional web-developer that creates beautiful content with passion. " />
+    <meta property="og:image" content="https://zdblogs.zohocorp.com/creator/decode/sites/creator/decode/files/2020-12/VPL-04%20%281%29.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://module-8-11-project-milestone-1-hero-and-mission-bltomlin.asuwd1su21.repl.co/" />
+    <meta property="og:image:secure_url" content="https://zdblogs.zohocorp.com/creator/decode/sites/creator/decode/files/2020-12/VPL-04%20%281%29.jpg">
+    <meta property="og:locale" content="en_US">
+
+  </head>
+
+  <body>
+
+  <!-- Navbar: Skip this and start with the hero section. When You're ready to return start by copy/pasting this snippet:
+
+  https://getbootstrap.com/docs/5.0/components/navbar/#nav 
+  -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#hero-section"><i class="bi bi-house"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#mission-section">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills-section">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#inspiration-section">Inspiration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+ <!-- Hero section -->
+	<section id="hero-section">
+		<!-- Start writing your hero section here. -->
+		<div id="profile-img"></div>
+		<h2>Brendan Tomlinson</h2>
+    <h6 class="text-center">Professional Web-Developer</h6>
+	</section>
+
+  <!-- Mission/Meet-me section -->
+  <section id="mission-section">
+    <!-- Start writing your Mission/Meet-me section here. -->
+    <div class="container-md">
+      <h3 class="text-center">About Brendan</h3>
+      <div class="row">
+        <div class="col-md-7">
+          <figure>
+          <img class="img-fluid" alt="Image"
+            src="img\razer.jpg">
+            <figcaption class="text-center text-muted fst-italic">Brendan's Daily Life Decisions, RTX on.</figcaption>
+          </figure>
+        </div>
+        <div class="col-12 col-md-5 col-lg-3">
+          <p>I remember before getting into Web Development sitting in a tiny overpriced apartment wondering why I decided to wait so long to finish my degree. Then it came to my mind that perhaps I could leverage my life experience and create interesting websites for a living. Haven't looked back since I dawned on that idea!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills-section">
+    <!-- Start writing your skills section here. -->
+    <div class="skill-container row align-items-center">
+      <h3 class="text-center">Skills</h3>
+      <div class="col-12 col-md-6 col-lg-3">
+        <img class="prgimages" src="img/html5.png" alt="html" style="width=50px;">
+        <p>Structuring the web's content using modern semantic HTML.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <img class="prgimages" src="img/css.png" alt="css" style="width=50px;">
+        <p>Presenting beautiful web designs and interactions using modern CSS.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <img class="prgimages" src="img/bs.png" alt="javascript" style="width=50px;">
+        <p>Rapidly developing responsive websites using the web's most popular framework.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <img class="prgimages" src="img/js.webp" alt="Bootstrap" >
+        <p>Making interactive experiences, games, web apps, and more using JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Inspiration Section -->
+  <section id="inspiration-section">
+    <h3 class="text-center">Inspiration Section</h3>
+    <div class="carousel slide" id="carousel-example" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button class="active" type="button" data-bs-target="#carousel-inspiration" data-bs-slide-to="0"></button>
+      <button type="button" data-bs-target="#carousel-inspiration" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carousel-inspiration" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/img1.jpg" class="d-block w-100" alt="quote">
+        <div class="carousel-caption d-md-block">
+          <p>The best thing about a boolean is even if you are wrong, you are only off by a bit.<br> (Anonymous)</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img2.jpg" class="d-block w-100" alt="quote">
+        <div class="carousel-caption d-md-block">
+          <p>Without requirements or design, programming is the art of adding bugs to an empty text file.<br> (Louis Srygley)</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/img3.jpg" class="d-block w-100" alt="quote">
+        <div class="carousel-caption d-md-block">
+          <p>Before software can be reusable it first has to be usable.<br> (Ralph Johnson)</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-example" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-example" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div >
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact-section">
+    <div class="contact-container">
+      <h3 class="text-center">Contact</h3>
+      <div class="col text-center">
+        <a href="mailto:brendan.tomlinson2@gmail.com" class="btn btn-link btn-lg" role="button" aria-pressed="true"><i class="bi bi-envelope-fill text-light" ></i></i></a>
+        <a href="https://github.com/bltomlin" class="btn btn-link btn-lg" role="button" aria-pressed="true"><i class="bi bi-github text-light"></i></a>
+        <a href="https://www.linkedin.com/in/brendan-tomlinson-aa3002a1/" class="btn btn-link btn-lg" role="button" aria-pressed="true" ><i class="bi bi-linkedin text-light"></i></a>
+      </div>
+    </div>
+  </section>
+    <!-- See https://icons.getbootstrap.com/ -->
+
+  <!-- Footer section -->
+  <footer>&copy; 2021 Brendan Tomlinson. All rights reserved.</footer>
+
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
