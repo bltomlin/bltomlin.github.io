@@ -116,5 +116,6 @@ h1 {
 }
 
 .stormtrooper {
-  background-color: white;
+  background-color: yellow;
+  size: 10%;
 }
