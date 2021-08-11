@@ -114,3 +114,7 @@ h1 {
 .image-6 .card-up {
   background-image: url(img/sidious.jpg), linear-gradient(#72dbf4, #72dbf4);
 }
+
+.stormtrooper {
+  background-color: white;
+}
