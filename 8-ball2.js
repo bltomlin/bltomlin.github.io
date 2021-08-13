@@ -1,34 +1,6 @@
 
-/* 
-   Welcome to the Higher-Lower Game Project. 
 
-   Try out the following functions that are 
-   available to you (you can just call them
-   in code or the console):
-   
-  // Returns the current value the user has 
-  // entered into the guess input box.
-  function getGuessInput()
-
-  // Sets the current value  entered into the 
-  // guess input box to 'value'.
-  function setGuessInput(value)
- 
-  // Hides all messages shown to the user within
-  // the "message-container" element.
-  function hideAllMessages()
-
-  // Hides all messages and then shows the one
-  // with with the id attribute matching 'id' 
-  // parameter.
-  // Example: showMessage("higher-message")
-  function showMessage(id)
-
-  // Shows the remaining guess count.
-  function showRemainingGuesses(value)
-*/
-
-// Initialize global variables needed by the program.
+// Initialize global variables.
 let magicNumber = -1;
 let remainingGuesses = -1;
 let winningGuess = 0;
@@ -48,15 +20,6 @@ function getRandomIntInclusive(min, max) {
 }
 
 
-/* This function sets up a new game when called. 
-   Here are the steps:
-
-     (1) Generate a magic number stored in 'magicNumber'.
-     (2) Reset the remaining guess count.
-     (3) Show the new guess count.
-     (4) Hide any messages.
-
-*/
 function setupNewGame() {
   magicNumber = getRandomIntInclusive(0,100);
   remainingGuesses = 5;
@@ -107,15 +70,6 @@ function handleGuess() {
   }
 }
 
-
-/* Function to be called when the user wants to play again.
-
-   Here are the steps:
-
-      (1) Setup a new game.
-      (2) Set the guess input to "".
-
-*/
 function handlePlayAgain() {
   setupNewGame();
   setGuessInput("");
