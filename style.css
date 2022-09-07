@@ -5,6 +5,7 @@ body{
   color: #EEEEEE;
 }
 
+
 #hero-section {
   /* This should be an image. */
   width: 100%;
@@ -18,21 +19,16 @@ body{
   padding: clamp(100px, 20vh, 200px) 0;
 }
 
+/*
 #profile-img {
-  /* Change this values to work for you. */
   margin: clamp(10px, 20vh, 100px) auto;
-
-  /* This should be an image */
   background-image: url(img/me.jpg);
-
-  /* Change this values to work for you. */
   height: clamp(150px, 10vh, 250px);
-
-  /* Change this values to work for you. */
   width: clamp(150px, 20vh, 250px);
   border-radius: 50%;
   border:rgb(143, 143, 143) 12px solid;
 } 
+/*
 
 #hero-section h2 {
   /* How to center text? */
