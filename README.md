@@ -1,1 +1,1 @@
-Brendan Tomlinson's Personal Website. (Work in progress)
+ 	[bltomlin.github.io](https://bltomlin.github.io)
