@@ -52,7 +52,7 @@ body{
   color:#212121;
   text-align: center;
 }
-
+/*
 .carousel-item img {
   height: 500px;
   width: 100%;
@@ -64,6 +64,7 @@ body{
 .inspiration-container {
   font-size: 18pt;
 }
+*/
 
 p {
   padding:15px;
@@ -94,9 +95,11 @@ footer {
   margin: 0 auto;
 }
 
+/*
 .carousel-item p{
   color:#0D7377;
   font-family: 'Delius Swash Caps', cursive;
   font-size: 14pt;
 
 }
+*/
