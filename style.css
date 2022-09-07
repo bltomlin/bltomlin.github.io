@@ -1,5 +1,3 @@
- /* You can add custom CSS and override boostrap styles in this file.  Remember, bootstrap is just CSS at the end of the day! */
-
 body{
   background-color:#212121;
   color: #EEEEEE;
@@ -7,7 +5,6 @@ body{
 
 
 #hero-section {
-  /* This should be an image. */
   width: 100%;
   height: 100%;
   background-image: 
@@ -15,7 +12,6 @@ body{
     url(img/code.jpg);
   background-size: cover;
   background-position: bottom center, bottom center;
-  /* Change this values to work for you. */
   padding: clamp(100px, 20vh, 200px) 0;
 }
 
@@ -31,7 +27,6 @@ body{
 */
 
 #hero-section h2 {
-  /* How to center text? */
   text-align: center;
   color: white;
   font-family: 'Source Code Pro', monospace;
