@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "./",
+  base: "/bltomlin.github.io ",
   build: {
     minify: "terser",
   },
